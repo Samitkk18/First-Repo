@@ -84,39 +84,6 @@
  		</div>
  	</div>
  </div>
- <!--  <div id="particle-container">
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-</div> 
- <canvas id="myCanvas" resize></canvas>  -->
     </section>
 
     <!-- home end -->
@@ -205,53 +172,6 @@
 
     <!-- about end -->
 
-    <!-- trying something -->
-
-<!--              <section class="section bg-funfact" id="fact">
-            <div class="bg-overlay"></div>
-            <div class="container">
-                <div class="row" id="counter">
-                    <div class="col-lg-3">
-                        <div class="text-center p-4 mt-3 rounded text-white border mb-3">
-                            <div class="lan_fun_icon mb-3">
-                               <i class="fas fa-history text-light h1"></i>
-                            </div>
-                            <h1 class="lan_fun_value mb-1" data-count="654">4</h1>
-                            <p class="lan_fun_name mb-0">Working Hours</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="text-center p-4 mt-3 rounded text-white border mb-3 ">
-                            <div class="lan_fun_icon mb-3">
-                                <i class="fas fa-gift text-light h1"></i>
-                            </div>
-                            <h1 class="lan_fun_value mb-1" data-count="6400">10</h1>
-                            <p class="lan_fun_name mb-0">Completed Projects</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="text-center p-4 mt-3 rounded text-white border mb-3">
-                            <div class="lan_fun_icon mb-3">
-                               <i class="fas fa-user text-light h1"></i>
-                            </div>
-                            <h1 class="lan_fun_value mb-1" data-count="2389">201</h1>
-                            <p class="lan_fun_name mb-0">No. of Clients</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="text-center p-4 mt-3 rounded text-white border mb-3">
-                            <div class="lan_fun_icon mb-3">
-                               <i class="fas fa-users text-light h1"></i>
-                            </div>                       
-                            <h1 class="lan_fun_value mb-1" data-count="653">2</h1>
-                            <p class="lan_fun_name mb-0">Team Member</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-    <!-- .... -->
 
     <!-- education start -->
 
@@ -366,15 +286,6 @@
                 </div>  
                 <div class="row mt-4 pt-4">
                     <div class="col-lg-4">
-                       <!--  <div class="text-center mt-4">
-                            <div>
-                                <i class="mbri-mobile2 text-custom h2"></i>
-                            </div>
-                            <div class="mt-2">
-                                <p class="mb-0 font-weight-bold">Call Us On</p>
-                                <p class="text-muted">+91 9820752404</p>
-                            </div>
-                        </div> -->
                         <div class="text-center mt-4">
                             <div>
                                 <i class="fas fa-mobile text-custom h2"></i>
@@ -489,132 +400,6 @@
     <!-- change text js  -->
     <script type="text/javascript" src="assets/js/ChangeText.js"></script>
 
-
-<!-- full javascript
-    <script>
-
-
-    // var scroll = new SmoothScroll('a[href*="#"]', {
-    //             topOnEmptyHash: false
-    //         });
-
-        // $(function() {
-        //     $(document).scroll(function() {
-        //       var $nav = $("#mainNavbar");
-        //       $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-        //     })
-        // })
-
-        // function changeName(){
-        //     var userInput1 = document.querySelector("#name").value;
-        //         document.querySelector("#changeName").innerHTML = userInput1;
-        //         document.querySelector("#changeName2").innerHTML = userInput1;
-        // } 
-       
-        // function changeNumber(){
-        //     var userInput2 = document.querySelector("#tel").value;
-        //     document.querySelector("#changeNum").innerHTML = userInput2;
-        // }
-
-        // function changeMail(){
-        //     var userInput3 = document.querySelector("#email").value;
-        //     document.querySelector("#changeMail").innerHTML = userInput3;
-        // }
-
-// samit kapadia animation
-
-// var TxtRotate = function(el, toRotate, period) {
-//   this.toRotate = toRotate;
-//   this.el = el;
-//   this.loopNum = 0;
-//   this.period = parseInt(period, 10) || 2000;
-//   this.txt = '';
-//   this.tick();
-//   this.isDeleting = false;
-// };
-
-// TxtRotate.prototype.tick = function() {
-//   var i = this.loopNum % this.toRotate.length;
-//   var fullTxt = this.toRotate[i];
-
-//   if (this.isDeleting) {
-//     this.txt = fullTxt.substring(0, this.txt.length - 1);
-//   } else {
-//     this.txt = fullTxt.substring(0, this.txt.length + 1);
-//   }
-
-//   this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-//   var that = this;
-//   var delta = 300 - Math.random() * 100;
-
-//   if (this.isDeleting) { delta /= 2; }
-
-//   if (!this.isDeleting && this.txt === fullTxt) {
-//     delta = this.period;
-//     this.isDeleting = true;
-//   } else if (this.isDeleting && this.txt === '') {
-//     this.isDeleting = false;
-//     this.loopNum++;
-//     delta = 500;
-//   }
-
-//   setTimeout(function() {
-//     that.tick();
-//   }, delta);
-// };
-
-// window.onload = function() {
-//   var elements = document.getElementsByClassName('txt-rotate');
-//   for (var i=0; i<elements.length; i++) {
-//     var toRotate = elements[i].getAttribute('data-rotate');
-//     var period = elements[i].getAttribute('data-period');
-//     if (toRotate) {
-//       new TxtRotate(elements[i], JSON.parse(toRotate), period);
-//     }
-//   }
-//   // INJECT CSS
-//   var css = document.createElement("style");
-//   css.type = "text/css";
-//   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-//   document.body.appendChild(css);
-// };
-
-// $(function() {
-// $(document).ready(function(){
-// $('#message').text('Samit Kapadia.');
-// $( '#message' ).delay(2000).fadeOut(1000,function(){
-// $(this).text('A Developer.');
-// }).fadeIn(1000).delay(2000).fadeOut(1000,function(){
-// $(this).text('A Designer.');
-// }).fadeIn(1000);
-// });
-//  })
-
-    // $(function(){
-    //     $(document),change(function(){
-    //         var taglines = ['Samit Kapadia.' , 'A Developer.', 'A Designer.'];
-    //         i=0
-    //         interval = 3000
-    //         $msg = $('#msg');
-
-    //         $txt.text(taglines[i%taglines.length]);
-
-    //         function recursion(){
-    //             $msg.fadeOut('400',function(){
-    //                 $(this).text(taglines[i%taglines.length]).fadeIn('400');
-    //             });
-    //             i++;
-    //             setTimeout(function(){
-    //                 recursion();
-    //             }, interval);
-    //         };
-    //         setTimeout(recursion , interval);
-
-    //     })
-    // })
-
-    </script> -->
 
 
 </body>
