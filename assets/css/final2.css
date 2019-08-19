@@ -144,19 +144,16 @@ h2 {
 }
 
 #freelance {
-	background: linear-gradient(35deg,#3A6073,#16222A);
+	background: linear-gradient(35deg,#434343,#000000);
  
 }
 
-#fact {
-	background: linear-gradient(35deg,#859398,#283048);
- 
-}
 
 .border {
 	border: 5px dashed white;
 	border-radius: 10px;
 }
+
 
 
 /*.bg-overlay {
