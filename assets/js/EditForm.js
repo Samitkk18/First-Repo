@@ -1,4 +1,3 @@
-
 var editName = document.querySelector("#editName");
 var number = document.querySelector("#number");
 var email = document.querySelector("#email");
@@ -26,6 +25,30 @@ function checkSubmit(){
 		if(editName.checkValidity()!=true || email.checkValidity()!=true || number.checkValidity()!=true)
 		{
 			checkedValid=false; 
+			if(editName.checkValidity()!=true)
+			{
+				alertName.innerHTML=("Please fill out the required field");
+			}
+			else
+			{
+				alertName.innerHTML=("");
+			}
+			if(email.checkValidity()!=true)
+			{
+				alertEmail.innerHTML=("Please enter a valid email id");
+			}
+			else
+			{
+				alertEmail.innerHTML=("");
+			}
+			if(number.checkValidity()!=true)
+			{
+				alertContact.innerHTML=("Please enter 10 numbers");
+			}
+			else
+			{
+				alertContact.innerHTML=("");
+			}
 		}
 		else 
 			checkedValid=true;
